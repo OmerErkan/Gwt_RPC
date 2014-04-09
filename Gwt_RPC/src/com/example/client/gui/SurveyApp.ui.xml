@@ -1,0 +1,66 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:HTMLPanel>
+		<g:LayoutPanel width="449px" height="396px">
+			<g:layer left="0px" width="377px" top="50px" height="18px">
+				<g:Label text="1.Soru"/>
+			</g:layer>
+			<g:layer left="68px" width="58px" top="74px" height="20px">
+				<g:CheckBox text="çokiyi"/>
+			</g:layer>
+			<g:layer left="162px" width="38px" top="74px" height="20px">
+				<g:CheckBox text="iyi"/>
+			</g:layer>
+			<g:layer left="234px" width="51px" top="74px" height="20px">
+				<g:CheckBox text="kötü"/>
+			</g:layer>
+			<g:layer left="344px" width="85px" top="74px" height="20px">
+				<g:CheckBox text="çokkötü"/>
+			</g:layer>
+			<g:layer left="1px" width="376px" top="108px" height="18px">
+				<g:Label text="2.SORU"/>
+			</g:layer>
+			<g:layer left="68px" width="58px" top="132px" height="20px">
+				<g:CheckBox text="çokiyi"/>
+			</g:layer>
+			<g:layer left="162px" width="38px" top="132px" height="20px">
+				<g:CheckBox text="iyi"/>
+			</g:layer>
+			<g:layer left="234px" width="51px" top="132px" height="20px">
+				<g:CheckBox text="kötü"/>
+			</g:layer>
+			<g:layer left="344px" width="76px" top="132px" height="20px">
+				<g:CheckBox text="çokkötü"/>
+			</g:layer>
+			<g:layer left="0px" width="314px" top="168px" height="18px">
+				<g:Label text="3.Soru"/>
+			</g:layer>
+			<g:layer left="68px" width="58px" top="192px" height="20px">
+				<g:CheckBox text="çokiyi"/>
+			</g:layer>
+			<g:layer left="162px" width="38px" top="192px" height="20px">
+				<g:CheckBox text="iyi"/>
+			</g:layer>
+			<g:layer left="234px" width="51px" top="192px" height="20px">
+				<g:CheckBox text="kötü"/>
+			</g:layer>
+			<g:layer left="344px" width="85px" top="192px" height="20px">
+				<g:CheckBox text="çokkötü"/>
+			</g:layer>
+			<g:layer left="81px" width="79px" top="268px" height="26px">
+				<g:Button ui:field="button">See Result</g:Button>
+			</g:layer>
+			<g:layer left="298px" width="79px" top="268px" height="26px">
+				<g:Button>Exit</g:Button>
+			</g:layer>
+		</g:LayoutPanel>
+		
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 
